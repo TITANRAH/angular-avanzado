@@ -10,6 +10,7 @@ import { SharedModule } from "../shared/shared.module";
 
 import { ComponentsModule } from "../components/components.module";
 
+
 @NgModule({
   declarations: [
     ProgressComponent,
@@ -27,7 +28,8 @@ import { ComponentsModule } from "../components/components.module";
     CommonModule, 
     PagesRoutingModule,
     SharedModule,
-    ComponentsModule
+    ComponentsModule,
+
     
     ],
 })
